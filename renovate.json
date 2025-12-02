@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "docker:pinDigests"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": [ "docker" ],
+      "pinDigests": false
+    }
+  ]
+}
