@@ -1,0 +1,12 @@
+# renovate-reproduction-35428
+
+Minimal reproduction for https://github.com/renovatebot/renovate/discussions/35428
+
+## Expected behavior
+
+- No digest pinning PR created
+  - Due to the custom package rule
+ 
+## Actual behavior
+
+- Digest pinning PR is created
