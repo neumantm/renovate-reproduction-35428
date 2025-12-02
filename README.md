@@ -10,3 +10,4 @@ Minimal reproduction for https://github.com/renovatebot/renovate/discussions/354
 ## Actual behavior
 
 - Digest pinning PR is created
+- Package rules from presets seem to be appended at the end. See [log output](./log_output.txt)
