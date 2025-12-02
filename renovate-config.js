@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     'docker:pinDigests',
   ],
+  printConfig: true,
   packageRules: [
     {
       "matchDatasources": [
