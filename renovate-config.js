@@ -1,6 +1,6 @@
 module.exports = {
   repositories: ['neumantm/renovate-reproduction-35428'],
-  extends: [
+  globalExtends: [
     'docker:pinDigests',
   ],
   printConfig: true,
